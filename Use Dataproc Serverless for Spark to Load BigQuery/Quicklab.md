@@ -1,7 +1,7 @@
 
-## 🚀 Introduction to Computer Vision with TensorFlow | [GSP631](https://www.cloudskillsboost.google/focuses/43204?parent=catalog)
+## 🚀 Use Dataproc Serverless for Spark to Load BigQuery | [Lab Link](https://www.cloudskillsboost.google/focuses/102966?parent=catalog)
 
-### 🔗 **Solution Video:** [Watch Here](https://youtu.be/C0cwlyhkCAk)
+### 🔗 **Solution Video:** [Watch Here](https://youtu.be/kYOIA7OHYQw)
 
 ---
 
@@ -10,20 +10,25 @@ This script and guide are provided for educational purposes to help you understa
 
 ## 🌐 **Quick Start Guide:**
 
-**Launch Vertex AI :** [clicking here](https://console.cloud.google.com/vertex-ai/workbench?project=)
+**Launch Cloud Shell:**
+Start your Google CloudShell session by [clicking here](https://console.cloud.google.com/home/dashboard?project=&pli=1&cloudshell=true).
+
 
 ```bash
-python --version
-pip3 install tensorflow
-pip3 install --upgrade pip
-pip install -U pylint --user
-pip install -r requirements.txt
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Use%20Dataproc%20Serverless%20for%20Spark%20to%20Load%20BigQuery/quicklab.sh
 ```
+- This command downloads the setup script from GitHub. The script will help configure the environment and perform necessary setup steps.
 
-### Download Following files:- [model.ipynb](https://github.com/quiccklabs/Labs_solutions/blob/master/Introduction%20to%20Computer%20Vision%20with%20TensorFlow%202024/vertex-lab/model.ipynb) , [callback_model.ipynb](https://github.com/quiccklabs/Labs_solutions/blob/master/Introduction%20to%20Computer%20Vision%20with%20TensorFlow%202024/vertex-lab/callback_model.ipynb) , [updated_model.ipynb](https://github.com/quiccklabs/Labs_solutions/blob/master/Introduction%20to%20Computer%20Vision%20with%20TensorFlow%202024/vertex-lab/updated_model.ipynb)
 
-- Watch the video and follow the steps and pay extra attention while working with ```updated model files```.
-- You perform Excercises Task one at time.
+```bash
+sudo chmod +x quicklab.sh
+```
+- This command gives execution permission to the script so that it can run.
+
+```bash
+./quicklab.sh
+```
+- This runs the script to set up your environment for the lab. It will provision resources and configure them as needed.
 
 ---
 

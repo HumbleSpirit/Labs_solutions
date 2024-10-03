@@ -1,7 +1,7 @@
 
 ## 🚀 Secure Data Lake on Cloud Storage - Challenge Lab | [ARC119](https://www.cloudskillsboost.google/catalog_lab/6445)
 
-### Form 3 🔗 **Solution Video:** [Watch Here](https://www.youtube.com/watch?v=bHXRvbXTWaQ)
+### Form 3 🔗 **Solution Video:** [Watch Here](https://youtu.be/0D1sMLRaXzk)
 
 ---
 
@@ -10,10 +10,6 @@
  **Launch Cloud Shell:**  
    Start your Google CloudShell session by [clicking here](https://console.cloud.google.com/home/dashboard?project=&pli=1&cloudshell=true).
 
-
-```bash
-export REGION=
-```
 
 ```bash
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Create%20a%20Secure%20Data%20Lake%20on%20Cloud%20Storage%20Challenge%20Lab/quicklabform3.sh
